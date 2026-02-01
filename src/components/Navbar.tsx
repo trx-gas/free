@@ -6,11 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: '產品', href: '#products' },
-    { label: '開發者', href: '#developers' },
-    { label: '資源', href: '#resources' },
-    { label: '聯繫我們', href: '#contact' },
-    { label: '社區', href: '#community' },
+    { label: '产品', href: '#products' },
+    { label: '开发者', href: '#developers' },
+    { label: '资源', href: '#resources' },
+    { label: '联系我们', href: '#contact' },
+    { label: '社区', href: '#community' },
   ];
 
   return (
@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center">
             <Button variant="ghost" size="sm" className="text-muted-foreground">
               <Globe className="w-4 h-4 mr-2" />
-              繁中
+              简中
             </Button>
           </div>
 
@@ -76,7 +76,7 @@ const Navbar = () => {
             ))}
             <Button variant="ghost" size="sm" className="mt-4 text-muted-foreground">
               <Globe className="w-4 h-4 mr-2" />
-              繁中
+              简中
             </Button>
           </div>
         )}

@@ -12,17 +12,17 @@ const CTASection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            GasFree 體驗及
-            <span className="text-gradient">未來</span>
+            GasFree 体验及
+            <span className="text-gradient">未来</span>
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed">
-            從更流暢的用戶體驗到更安全的加密貨幣轉賬，GasFree 可通過低門檻的集成為錢包應用和 DeFi 網站提供各種優勢。無論您何時想要提升至新的高度，我們都能提供您所需的一切，以拓寬您的版圖。
+            从更流畅的用户体验到更安全的加密货币转账，GasFree 可通过低门槛的集成为钱包应用和 DeFi 网站提供各种优势。无论您何时想要提升至新的高度，我们都能提供您所需的一切，以拓宽您的版图。
           </p>
           <Button 
             size="lg" 
             className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg group"
           >
-            聯繫我們
+            联系我们
             <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Button>
         </div>

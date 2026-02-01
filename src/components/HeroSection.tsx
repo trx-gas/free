@@ -68,19 +68,19 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
               人人都可享用的
               <br />
-              經濟便捷的
+              经济便捷的
               <br />
-              <span className="text-gradient">轉賬服務</span>
+              <span className="text-gradient">转账服务</span>
             </h1>
             <p className="text-muted-foreground text-lg md:text-xl mb-8 max-w-lg">
-              GasFree 通過無需原生代幣的無縫轉賬體驗，使用戶能更專注於資產管理
+              GasFree 通过无需原生代币的无缝转账体验，使用户能更专注于资产管理
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8">
-                GasFree 錢包
+                GasFree 钱包
               </Button>
               <Button size="lg" variant="outline" className="border-border hover:bg-secondary">
-                集成我們
+                集成我们
               </Button>
             </div>
           </div>
@@ -104,13 +104,13 @@ const HeroSection = () => {
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-muted-foreground text-sm">交易筆數</p>
+                <p className="text-muted-foreground text-sm">交易笔数</p>
                 <p className="text-2xl md:text-3xl font-bold">
                   <AnimatedNumber end={2795592} suffix="+" />
                 </p>
               </div>
               <div className="text-right">
-                <p className="text-muted-foreground text-sm">節約費用</p>
+                <p className="text-muted-foreground text-sm">节约费用</p>
                 <p className="text-2xl md:text-3xl font-bold">
                   $<AnimatedNumber end={3698124} />
                 </p>

@@ -4,26 +4,26 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const features = [
   {
     icon: DollarSign,
-    title: '更便宜的轉賬',
-    description: 'GasFree 相比傳統轉賬方式，成本降低至原來的約 40%，用戶只需以轉賬代幣支付少量費用',
+    title: '更便宜的转账',
+    description: 'GasFree 相比传统转账方式，成本降低至原来的约 40%，用户只需以转账代币支付少量费用',
     color: 'text-primary',
   },
   {
     icon: Zap,
     title: '容易使用',
-    description: '無需原生代幣進行轉賬或激活賬戶，GasFree 降低了進入加密世界的門檻',
+    description: '无需原生代币进行转账或激活账户，GasFree 降低了进入加密世界的门槛',
     color: 'text-accent',
   },
   {
     icon: Shield,
     title: '去中心化',
-    description: 'GasFree 通過更簡單且去中心化的方式實現轉賬，從而提高了安全性，最大限度地降低了敏感信息暴露的風險',
+    description: 'GasFree 通过更简单且去中心化的方式实现转账，从而提高了安全性，最大限度地降低了敏感信息暴露的风险',
     color: 'text-primary',
   },
   {
     icon: Sparkles,
-    title: '更流暢的體驗',
-    description: 'GasFree 消除了支付 Gas 的負擔，用戶只需簽名轉賬，一切都會得到妥善處理，提供無縫的體驗',
+    title: '更流畅的体验',
+    description: 'GasFree 消除了支付 Gas 的负担，用户只需签名转账，一切都会得到妥善处理，提供无缝的体验',
     color: 'text-accent',
   },
 ];
@@ -36,10 +36,10 @@ const FeaturesSection = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             便宜 <span className="text-muted-foreground">且</span> 易用的
             <br />
-            <span className="text-gradient">新轉賬方式</span>
+            <span className="text-gradient">新转账方式</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            面向大眾的更經濟且更簡便的轉賬方式
+            面向大众的更经济且更简便的转账方式
           </p>
         </div>
 

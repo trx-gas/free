@@ -13,10 +13,10 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              隱私政策
+              隐私政策
             </a>
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              服務條款
+              服务条款
             </a>
             <span className="text-sm text-muted-foreground">
               V1.1.0
