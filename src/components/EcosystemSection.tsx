@@ -21,12 +21,12 @@ const EcosystemSection = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            為增長而構建的
+            为增长而构建的
             <br />
-            <span className="text-gradient">生態系統</span>
+            <span className="text-gradient">生态系统</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            全球性且互聯的數字錢包應用與 DApps 網絡
+            全球性且互联的数字钱包应用与 DApps 网络
           </p>
         </div>
 
@@ -35,7 +35,7 @@ const EcosystemSection = () => {
           <div className="flex items-center gap-2 px-6 py-3 rounded-full bg-secondary/50 border border-border">
             <Users className="w-5 h-5 text-primary" />
             <span className="text-2xl font-bold">6M+</span>
-            <span className="text-muted-foreground">用戶數量</span>
+            <span className="text-muted-foreground">用户数量</span>
           </div>
         </div>
 

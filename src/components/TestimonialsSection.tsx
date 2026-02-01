@@ -5,32 +5,32 @@ const testimonials = [
   {
     name: 'Freja Kristensen',
     avatar: 'FK',
-    content: '從沒想過有一天我們能夠擺脫加密貨幣轉賬的 Gas 費。這是一次美妙的體驗，重新點燃了我對加密世界的熱情。',
+    content: '从没想过有一天我们能够摆脱加密货币转账的 Gas 费。这是一次美妙的体验，重新点燃了我对加密世界的热情。',
   },
   {
     name: 'Ayaka Shintani',
     avatar: 'AS',
-    content: '多虧了對需要支付 Gas 費這一基本概念的重新審視，管理加密錢包和各種賬戶變得更容易、更省心。',
+    content: '多亏了对需要支付 Gas 费这一基本概念的重新审视，管理加密钱包和各种账户变得更容易、更省心。',
   },
   {
     name: 'Julien Neuvillette',
     avatar: 'JN',
-    content: '怎能料到無 Gas 費的加密貨幣轉賬竟如此有顛覆性？它重燃了我對區塊鏈未來的信念。',
+    content: '怎能料到无 Gas 费的加密货币转账竟如此有颠覆性？它重燃了我对区块链未来的信念。',
   },
   {
     name: 'Ilya Krasnoufimsk',
     avatar: 'IK',
-    content: '這確實是一項開創性的創新。我們可以邀請加密貨幣領域的新人，而無需解釋完成交易的某些必要需求及其原因，比如 Gas 費。',
+    content: '这确实是一项开创性的创新。我们可以邀请加密货币领域的新人，而无需解释完成交易的某些必要需求及其原因，比如 Gas 费。',
   },
   {
     name: 'Grazhio Kujab',
     avatar: 'GK',
-    content: 'GasFree 真是無可匹敵——它有著優秀的機制，且用戶友好。開發者們應該因其流暢性而受到讚譽。',
+    content: 'GasFree 真是无可匹敌——它有着优秀的机制，且用户友好。开发者们应该因其流畅性而受到赞誉。',
   },
   {
     name: 'Muhammad Mulyam',
     avatar: 'MM',
-    content: '顛覆性的新協議，它消除了加密貨幣最大的入門障礙 - 解釋 Gas 費問題 - 讓新手能像發短信一樣輕鬆體驗區塊鏈技術。',
+    content: '颠覆性的新协议，它消除了加密货币最大的入门障碍 - 解释 Gas 费问题 - 让新手能像发短信一样轻松体验区块链技术。',
   },
 ];
 
@@ -40,12 +40,12 @@ const TestimonialsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            由繁榮的社區驅動的
+            由繁荣的社区驱动的
             <br />
-            <span className="text-gradient">更佳轉賬服務</span>
+            <span className="text-gradient">更佳转账服务</span>
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            全球性的倡議匯聚了志同道合者，共同致力於創造一個更美好的未來
+            全球性的倡议汇聚了志同道合者，共同致力于创造一个更美好的未来
           </p>
         </div>
 
