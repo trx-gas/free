@@ -14,8 +14,8 @@ GasFree — TRON 免 Gas 转账 & 能量租赁
 
 <p align="center">
 🌐 <a href="https://www.gasfree.shop/" target="_blank"><b>官方网站</b></a> ·
-📖 <a href="#-什么是-gasfree">文档</a> ·
-⚡ <a href="#-如何使用">立即使用</a> ·
+⚡ <a href="https://www.gasfree.shop/" target="_blank">立即使用</a> ·
+📖 <a href="https://developer.gasfree.io/" target="_blank">开发者文档</a> ·
 ⭐ Star 支持我们
 </p>
 
