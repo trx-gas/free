@@ -1,9 +1,12 @@
 import { useState } from 'react';
-import { Menu, X, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Menu, X, Globe, User, LogIn } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useAuth } from '@/contexts/AuthContext';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { user } = useAuth();
 
   const navItems = [
     { label: '产品', href: '#products' },
@@ -40,12 +43,27 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* Language Selector */}
-          <div className="hidden md:flex items-center">
+          {/* Auth & Language */}
+          <div className="hidden md:flex items-center gap-2">
             <Button variant="ghost" size="sm" className="text-muted-foreground">
               <Globe className="w-4 h-4 mr-2" />
               简中
             </Button>
+            {user ? (
+              <Button asChild variant="default" size="sm">
+                <Link to="/dashboard">
+                  <User className="w-4 h-4 mr-2" />
+                  控制台
+                </Link>
+              </Button>
+            ) : (
+              <Button asChild variant="default" size="sm">
+                <Link to="/auth">
+                  <LogIn className="w-4 h-4 mr-2" />
+                  登录
+                </Link>
+              </Button>
+            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -78,6 +96,21 @@ const Navbar = () => {
               <Globe className="w-4 h-4 mr-2" />
               简中
             </Button>
+            {user ? (
+              <Button asChild variant="default" size="sm" className="mt-2 w-full">
+                <Link to="/dashboard">
+                  <User className="w-4 h-4 mr-2" />
+                  控制台
+                </Link>
+              </Button>
+            ) : (
+              <Button asChild variant="default" size="sm" className="mt-2 w-full">
+                <Link to="/auth">
+                  <LogIn className="w-4 h-4 mr-2" />
+                  登录
+                </Link>
+              </Button>
+            )}
           </div>
         )}
       </div>
